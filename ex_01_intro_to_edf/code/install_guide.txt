@@ -1,0 +1,13 @@
+Follow the instructions for your OS to install the Python package manager conda:
+https://docs.conda.io/projects/conda/en/latest/user-guide/install/
+
+Open a terminal in the this directory.
+
+Creates a new environment named deep_learning_ex_1 and installs required packages (numpy, etc.)
+conda env create -f environment.yml
+
+Before launching your notebook you need to activate the environment:
+conda activate deep_learning_ex_1
+
+Run this command from the directory where the jupyter notebooks are located:
+jupyter notebook
